@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pwd_edittext_with_java" />
+    <me.foji.widget.PwdEditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:focusable="true"
+        app:pwdLength="6"
+        android:id="@+id/pwdEditText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/pwd_edittext_with_kotlin" />
+    <me.foji.widget.PwdEditTextKt
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        app:pwdLength="6"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/custom_style" />
+    <me.foji.widget.PwdEditTextKt
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        app:pwdLength="4"
+        app:outLineWidth="2dp"
+        app:outRadius="3dp"
+        app:outLineColor="#b67a5a"
+        app:dividerLineWidth="2dp"
+        app:dividerLineColor="#778aa3"
+        app:dotRadius="8dp"
+        app:dotColor="#0011ff"
+        app:inputBoxWidth="60dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/support_custom_style"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/support_style_list"
+        android:textColor="#333"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/only_support_necessary_custom_style"
+        android:textColor="#333"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/go_to_developer_jianshu"
+        android:textColor="#00eeff"
+        android:background="#fff"
+        android:id="@+id/button_jianshu"/>
+</LinearLayout>

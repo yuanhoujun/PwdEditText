@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PwdEditText</string>
+    <string name="pwd_edittext_with_java">PwdEditText Java实现</string>
+    <string name="pwd_edittext_with_kotlin">PwdEditText Kotlin实现</string>
+    <string name="custom_style">自定义样式</string>
+    <string name="support_custom_style">支持的自定义样式</string>
+    <string name="support_style_list">1) 外部边框边缘线颜色\n2) 外部边框边缘线宽度\n3) 外部边框弧度\n4) 间隔线宽度\n5) 间隔线颜色\n6) 密码占位圆点颜色\n7) 密码占位圆点半径 </string>
+    <string name="only_support_necessary_custom_style">仅支持必要的样式自定义,如需更多的自定义样式,请到简书告诉我</string>
+    <string name="go_to_developer_jianshu">去作者的简书</string>
+    <string name="url_jianshu">http://www.jianshu.com/users/db019edd34b4/latest_articles</string>
+</resources>
