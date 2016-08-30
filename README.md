@@ -12,4 +12,8 @@
 
 复制attr_pwd_edittext.xml到res/values文件夹
 
+2）Kotlin
+复制PwdEditText.kt到你的源码目录
+复制attr_pwd_edittext.xml到res/values文件夹
+
 具体属性设置请查看demo
